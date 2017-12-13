@@ -1,0 +1,11 @@
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\bin\Debug\netcoreapp2.0\ConsoleCalc.deps.json
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\bin\Debug\netcoreapp2.0\ConsoleCalc.runtimeconfig.json
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\bin\Debug\netcoreapp2.0\ConsoleCalc.runtimeconfig.dev.json
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\bin\Debug\netcoreapp2.0\ConsoleCalc.dll
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\bin\Debug\netcoreapp2.0\ConsoleCalc.pdb
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\obj\Debug\netcoreapp2.0\ConsoleCalc.csprojResolveAssemblyReference.cache
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\obj\Debug\netcoreapp2.0\ConsoleCalc.csproj.CoreCompileInputs.cache
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\obj\Debug\netcoreapp2.0\ConsoleCalc.AssemblyInfoInputs.cache
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\obj\Debug\netcoreapp2.0\ConsoleCalc.AssemblyInfo.cs
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\obj\Debug\netcoreapp2.0\ConsoleCalc.dll
+C:\Users\pedra\Documents\codefellows\401\401-prework-calculator\ConsoleCalc\ConsoleCalc\obj\Debug\netcoreapp2.0\ConsoleCalc.pdb
