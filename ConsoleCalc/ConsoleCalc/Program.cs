@@ -10,25 +10,41 @@ namespace ConsoleCalc
             double operand1, operand2, answer = 0.0;
 
             Console.WriteLine("Welcome to the world's most simple calculator!");
-            Console.Write("Enter a number:");
+            Console.Write("Enter a number: ");
             operand1 = double.Parse(Console.ReadLine());
             do
             {
                 option = DisplayOptions();
-                Console.Write("Enter a number:");
+                if (option == "5") continue;
+                Console.Write("Enter a number: ");
                 operand2 = double.Parse(Console.ReadLine());
                 Console.WriteLine(Calculate(operand1, operand2, option, out answer));
                 operand1 = answer;
-            } while (option != "done");
+            } while (option != "5");
+            Console.Write("Program terminating... press Enter to exit...");
             Console.ReadLine();
         }
 
         static string DisplayOptions()
         {
-            Console.WriteLine("1. Add \n2. Subtract \n3. Multiply \n4. Divide \n5. Done");
+            Console.Write("\n1. Add \n2. Subtract \n3. Multiply \n4. Divide \n5. Done\nEnter selection: ");
             string userInput = Console.ReadLine();
-            // if (userInput )
-            return userInput;
+            Console.WriteLine("\nThis was your input: " + userInput);
+            bool isValidInput = false;
+            switch (userInput)
+            {
+                case "1":
+                case "2":
+                case "3":
+                case "4":
+                case "5":
+                    isValidInput = true;
+                    break;
+                default:
+                    Console.WriteLine("Input not valid! Try again.");
+                    break;
+            }
+            return (isValidInput) ? userInput : DisplayOptions();
         }
 
         static string Calculate(double operand1, double operand2, string option, out double answer)
